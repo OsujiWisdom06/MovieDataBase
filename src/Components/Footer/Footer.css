@@ -1,0 +1,458 @@
+.Footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #032541;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.footerwrap{
+    width: 75%;
+    height: 80%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+}
+
+.line1{
+    width: 25%;
+    height: 100%;
+    /* background-color: gray; */
+}
+
+.footerlogo{
+    width: 100%;
+    height: 60%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: end;
+}
+
+.footerbtm{
+    width: 100%;
+    height: 40%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    
+}
+
+.jointhecommunity{
+    width: 90%;
+    height: 55%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #01B4E4;
+    cursor: pointer;
+}
+
+.line2{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.line3{
+    width: 20%;
+    height: 100%;
+    /* background-color: coral; */
+}
+.line4{
+    width: 20%;
+    height: 100%;
+    /* background-color: purple */
+}
+
+.line5{
+    width: 15%;
+    height: 100%;
+    /* background-color: magenta; */
+}
+
+.line2up{
+    width: 100%;
+    height: 30%;
+    /* background-color: navy; */
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.line2btm1{
+    width: 100%;
+    height: 55%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-left: 20px;
+
+    & p:hover{
+        cursor: pointer;
+    }
+}
+
+.line3btm1{
+    width: 100%;
+    height: 55%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8px;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-left: 20px;
+
+    & p:hover{
+        cursor: pointer;
+    }
+}
+
+.line4btm1{
+    width: 100%;
+    height: 55%;
+    /* background-color: green; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    gap: 8px;
+    /* align-items: center; */
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding-left: 20px;
+
+    & p:hover{
+        cursor: pointer;
+    }
+}
+
+.line5btm1{
+    width: 100%;
+    height: 55%;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 16px;
+    font-weight: 600;
+    gap: 10px;
+    color: white;
+    padding-left: 20px;
+
+    & p:hover{
+        cursor: pointer;
+    }
+}
+
+.footerlogologo{
+    width: 80%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.upfooterthe{
+    width: 100%;
+    height: 34%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.the1{
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #23B9D4;
+    font-size: 20px;
+}
+
+.the2{
+    width: 35%;
+    height: 80%;
+    background-color: #23B9D4;
+    border-radius: 50px;
+}
+
+.secondfooterthe{
+    width: 100%;
+    height: 33%;
+    /* background-color: green; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight: 600;
+    color: #23B9D4;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.thirdfooterthe{
+    width: 100%;
+    height: 33%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdthe{
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #23B9D4;
+    font-size: 20px;
+}
+
+.thirdthe2{
+    width: 50%;
+    height: 80%;
+    background-color: #23B9D4;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 480px){
+    .Footer{
+        /* background-color: red; */
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerwrap{
+        width: 100%;
+        /* background-color: blue; */
+        height: auto;
+        flex-direction: column-reverse;
+        display: flex;
+        gap: 30px;
+        font-size: 10px;
+    }
+
+    .line2{
+        /* background-color: red; */
+        width: 100%;
+        font-size: 10px;
+
+    }
+
+    .line3{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .line4{
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .line5{
+        width: 100%;
+        /* background-color: maroon; */
+    }
+
+    .line2btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line3btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line4btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line5btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line1{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top: 1px solid #23B9D4;
+        border-bottom: 1px solid #23B9D4;
+        padding-bottom: 15px;
+    }
+
+    .footerlogo{
+        /* background-color: blue; */
+        width: 30%;
+    }
+
+    .the1{
+        font-size: 10px;
+    }
+
+    .secondfooterthe{
+        font-size: 10px;
+    }
+
+    .footerbtm{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .thirdthe{
+        font-size: 10px;
+    }
+
+    .jointhecommunity{
+        width: 40%;
+        font-size: 10px;
+        display: none;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .Footer{
+        /* background-color: red; */
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerwrap{
+        width: 100%;
+        /* background-color: blue; */
+        height: auto;
+        flex-direction: column-reverse;
+        display: flex;
+        gap: 30px;
+        font-size: 10px;
+    }
+
+    .line2{
+        /* background-color: red; */
+        width: 100%;
+        font-size: 10px;
+
+    }
+
+    .line3{
+        width: 100%;
+        /* background-color: magenta; */
+    }
+
+    .line4{
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .line5{
+        width: 100%;
+        /* background-color: maroon; */
+    }
+
+    .line2btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line3btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line4btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line5btm1{
+        font-size: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .line1{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top: 1px solid #23B9D4;
+        border-bottom: 1px solid #23B9D4;
+        padding-bottom: 15px;
+    }
+
+    .footerlogo{
+        /* background-color: blue; */
+        width: 30%;
+    }
+
+    .the1{
+        font-size: 10px;
+    }
+
+    .secondfooterthe{
+        font-size: 10px;
+    }
+
+    .footerbtm{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .thirdthe{
+        font-size: 10px;
+    }
+
+    .jointhecommunity{
+        width: 40%;
+        font-size: 10px;
+        display: none;
+        height: 100%;
+    }
+
+}

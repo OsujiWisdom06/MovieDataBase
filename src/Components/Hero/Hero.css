@@ -1,0 +1,193 @@
+.hero{
+    width: 100%;
+    height: 70vh;
+    /* background-color: red; */
+    background-image: url(/src/assets/whatsapp2.jpeg);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    opacity: 200;
+
+}
+
+.herotext{
+    width: 40%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.first{
+    width: 100%;
+    height: 33%;
+    /* background-color: blue; */
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    color: #1AB8DA;
+
+    & h1{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+.second{
+    width: 100%;
+    height: 32%;
+    /* background-color: yellow; */
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    color: #1AB8DA;
+
+     & h1{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+.thirdtext{
+    width: 100%;
+    height: 15%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 20px;
+    color: red;
+
+    & p{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+.fourthtext{
+    width: 100%;
+    height: 20%;
+    /* background-color: magenta; */
+    display: flex;
+    align-items: end;
+    padding-left: 40px;
+}
+
+.checkout{
+    width: 29%;
+    height: 85%;
+    background: url(///src/assets/whatsapp2.jpeg);
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+    border: 2px solid red;
+    padding-left: 10px;
+    transition: 350ms ease-in-out;
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.checkout:hover{
+    transform: scale(1.03);
+}S
+
+
+.btnicon{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.iconbtn{
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+
+@media screen and (max-width: 480px) {
+    .hero{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .herotext{
+        width: 50%;
+        height: 50%;
+        /* background-color: blue; */
+    }
+
+    .first{
+        font-size: 20px;
+    }
+
+    .second{
+        font-size: 20px;
+    }
+
+    .thirdtext{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .fourthtext{
+        /* background-color: green; */
+        width: 100%;
+        height: 100;
+    }
+
+    .checkout{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen  and (max-width: 767px) {
+    .hero{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .herotext{
+        width: 50%;
+        height: 50%;
+        /* background-color: blue; */
+    }
+
+    .first{
+        font-size: 20px;
+    }
+
+    .second{
+        font-size: 20px;
+    }
+
+    .thirdtext{
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .fourthtext{
+        /* background-color: green; */
+        width: 100%;
+        height: 100;
+    }
+
+    .checkout{
+        width: 50%;
+        height: 100%;
+    }
+
+    .btntext{
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,511 @@
+.mysignuppage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mysignuppagewrap{
+    width: 95%;
+    height: 95%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.signupleft{
+    width: 80%;
+    height: 100%;
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.signupinnerwrap{
+    width: 95%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.signupheader{
+    width: 100%;
+    height: 8%;
+    /* background-color: pink; */
+    display: flex;
+    /* align-items: center; */
+    /* padding-top: 5px; */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.signuptext1{
+    width: 100%;
+    height: 5%;
+    /* background-color: purple; */
+    font-size: 18px;
+    display: flex;
+    /* align-items: center; */
+    /* color: gray; */
+    /* padding-bottom: 60px; */
+}
+
+.signumain{
+    width: 100%;
+    height: 87%;
+    /* background-color: red; */
+}
+
+.signup1{
+    width: 100%;
+    height: 15%;
+    /* background-color: green; */
+}
+
+.signup2{
+    width: 100%;
+    height: 15%;
+    /* background-color: green; */
+}
+
+.signup3{
+    width: 100%;
+    height: 15%;
+    /* background-color: orange; */
+}
+
+.signup4{
+    width: 100%;
+    height: 15%;
+    /* background-color: magenta; */
+}
+.signup5{
+    width: 100%;
+    height: 40%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupuser{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+}
+
+.signupinput{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+}
+
+.mysignupdiv{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.mysignupdiv:focus{
+    border: 1px solid #13B7DD;
+}
+
+.signuppassword{
+    width: 100%;
+    height: 47%;
+    /* background-color: red; */
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+}
+
+.signupupinput{
+    width: 100%;
+    height: 53%;
+    /* background-color: maroon; */
+}
+
+.myinputdiv22{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 5px; */
+    outline: none;
+    padding-left: 10px;
+}
+
+.myinputdiv22:focus{
+     border: 1px solid #13B7DD;
+}
+
+.comfirm{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+}
+
+.confirminputdiv{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+}
+
+.mycomfirminput{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.mycomfirminput{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 5px; */
+    outline: none;
+}
+
+.mycomfirminput:focus{
+    border: 1px solid #13B7DD;
+}
+
+.email2{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+}
+
+.emailinputdiv{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+}
+
+.myemailinput{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 5px; */
+    outline: none;
+    padding-left: 10px;
+}
+
+.myemailinput:focus{
+    border: 1px solid #13B7DD;
+}
+
+.signupwrap{
+    width: 100%;
+    height: 75%;
+    /* background-color: yellow; */
+}
+
+.signuptext{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.signupbtmtext{
+    width: 100%;
+    height: 80%;
+    /* background-color: magenta; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.signupcancel{
+    width: 25%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    gap: 2px;
+}
+
+.signupmmainbtn{
+    width: 35%;
+    height: 100%;
+    background-color: #032541;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.cancel{
+    width: 35%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1AB8DA;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signupright{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.signuprightheader{
+    width: 100%;
+    height: 15%;
+    background-color: #01B4E4;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.signuprightmain{
+    width: 100%;
+    height: 85%;
+    /* background-color: magenta; */
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.signupmainimage{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.signupmainicon{
+    width: 17%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10px; */
+}
+
+.signupmaintext{
+    width: 83%;
+    height: 100%;
+    /* background-color: yellow; */
+    font-size: 18px;
+    display: flex;
+    align-items: start;
+    /* text-align: center; */
+}
+
+@media screen and (max-width: 480px){
+    .signupright{
+        width: 45%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .signuprightheader{
+        font-size: 10px;
+        height: 10%;
+    }
+
+    .signupmainimage{
+        /* background-color: blue; */
+        font-size: 10px;
+    }
+
+    .signupmaintext{
+        font-size: 11px;
+    }
+
+    .signupleft{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .signupheader{
+        /* background-color: blue; */
+        font-size: 9px;
+        height: 5%;
+    }
+
+    .signuptext1{
+        /* background-color: red; */
+        font-size: 9px;
+        width: 100%;
+        /* height: 5%; */
+    }
+
+    .signupuser{
+        /* background-color: blue; */
+        font-size: 11px;
+    }
+
+    .mysignupdiv{
+        font-size: 10px;
+    }
+
+    .signuppassword{
+        font-size: 11px;
+    }
+
+    .myinputdiv22{
+        font-size: 10px;
+    }
+
+    .email2{
+        font-size: 11px;
+    }
+
+    .myemailinput{
+        font-size: 10px;
+    }
+
+    .comfirm{
+        font-size: 11px;
+    }
+
+    .mycomfirminput{
+        font-size: 10px;
+    }
+
+    .signuptext{
+        /* background-color: red; */
+        height: 30%;
+        font-size: 12px;
+    }
+
+    .signupcancel{
+        /* background-color: red; */
+        width: 40%;
+        display: flex;
+        gap: 5px;
+    }
+
+    .signupmmainbtn{
+        font-size: 8px;
+    }
+
+    .cancel{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .signupright{
+        width: 45%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .signuprightheader{
+        font-size: 10px;
+        height: 10%;
+    }
+
+    .signupmainimage{
+        /* background-color: blue; */
+        font-size: 10px;
+    }
+
+    .signupmaintext{
+        font-size: 11px;
+    }
+
+    .signupleft{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .signupheader{
+        /* background-color: blue; */
+        font-size: 9px;
+        height: 5%;
+    }
+
+    .signuptext1{
+        /* background-color: red; */
+        font-size: 9px;
+        width: 100%;
+        /* height: 5%; */
+    }
+
+    .signupuser{
+        /* background-color: blue; */
+        font-size: 11px;
+    }
+
+    .mysignupdiv{
+        font-size: 10px;
+    }
+
+    .signuppassword{
+        font-size: 11px;
+    }
+
+    .myinputdiv22{
+        font-size: 10px;
+    }
+
+    .email2{
+        font-size: 11px;
+    }
+
+    .myemailinput{
+        font-size: 10px;
+    }
+
+    .comfirm{
+        font-size: 11px;
+    }
+
+    .mycomfirminput{
+        font-size: 10px;
+    }
+
+    .signuptext{
+        /* background-color: red; */
+        height: 30%;
+        font-size: 12px;
+    }
+
+    .signupcancel{
+        /* background-color: red; */
+        width: 40%;
+        display: flex;
+        gap: 5px;
+    }
+
+    .signupmmainbtn{
+        font-size: 8px;
+    }
+
+    .cancel{
+        font-size: 12px;
+    }
+}

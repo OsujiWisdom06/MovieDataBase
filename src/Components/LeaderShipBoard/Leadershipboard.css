@@ -1,0 +1,324 @@
+.Leadershipboard{
+    width: 100%;
+    height: max-content;
+    /* background-color: green; */
+}
+
+.LeadershipboardheaderS{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+}
+
+.Leadershipboardheaderbtm{
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    gap: 15px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Leadershipboardheaderwrap{
+    width: 98%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.leadershiptext{
+    width: 28%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.leadership1{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    /* color: white; */
+    padding-right: 5px;
+}
+
+.leadership2{
+    width: 50%;
+    height: 100%;
+    /* background-color: magenta; */
+}
+
+.leadershipup{
+    width: 100%;
+    height: 50%;
+    /* background-color: maroon; */
+    display: flex;
+    flex-direction: row;
+}
+
+.leadershipbtm{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.circlediv{
+    width: 10%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+
+.textdiv{
+    width: 90%;
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.goto1{
+    color: #3CDCB0;
+}
+
+.goto2{
+    color: #E56567;
+}
+
+.leaderimage{
+    width: 45%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    /* flex: 0 0 auto; */
+}
+
+.leaderimagediv1{
+    width: 65px;
+    height: 65px;
+    /* background-color: green; */
+    border-radius: 50px;
+
+    & img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+}
+
+.leadershiptext1{
+    width: 90%;
+    height: 100%;
+    /* background-color: magenta; */
+    display: flex;
+    flex-direction: column;
+}
+
+.first1{
+    width: 40%;
+    height: 40%;
+    /* background-color: red; */
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.second1{
+    width: 30%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.third1{
+    width: 85%;
+    height: 30%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.secondfirst{
+    width: 50%;
+    height: 70%;
+    background-color: #45DFB2;
+    border-radius: 50px;
+}
+
+.secondsecond{
+    width: 50%;
+    height: 70%;
+    /* background-color: red; */
+    padding-left: 5px;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+.thirdfirst{
+    width: 80%;
+    height: 70%;
+    background-color: #E87568;
+    border-radius: 50px;
+}
+
+.thirdsecond{
+    width: 20%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 480px){
+    .Leadershipboard{
+        /* background-color: red; */
+        height: 100%;
+        width: 100%;
+    }
+
+    .LeadershipboardheaderS{
+        width: 100%;
+        /* height: 100%; */
+        /* background-color: blue; */
+    }
+
+    .leadershiptext{
+        /* background-color: blue; */
+        width: 50%;
+        /* height: 49%; */
+    }
+
+    .leadership1{
+        /* background-color: red; */
+        width: 40%;
+        font-size: 8px;
+    }
+
+
+    .leadership2{
+        /* background-color: magenta; */
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .Leadershipboardheaderbtm{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .leaderimage{
+        width: 80%;
+        /* height: 100%; */
+    }
+
+    .first1{
+        font-size: 10px;
+    }
+
+    .secondsecond{
+        font-size: 10px;
+    }
+
+    .thirdsecond{
+        font-size: 10px;
+    }
+
+    .second1{
+        height: 15%;
+    }
+
+    .third1{
+        height: 15%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .Leadershipboard{
+        /* background-color: red; */
+        height: 100%;
+        width: 100%;
+    }
+
+    .LeadershipboardheaderS{
+        width: 100%;
+        /* height: 100%; */
+        /* background-color: blue; */
+    }
+
+    .leadershiptext{
+        /* background-color: blue; */
+        width: 50%;
+        /* height: 49%; */
+    }
+
+    .leadership1{
+        /* background-color: red; */
+        width: 40%;
+        font-size: 8px;
+    }
+
+
+    .leadership2{
+        /* background-color: magenta; */
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .Leadershipboardheaderbtm{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .leaderimage{
+        width: 80%;
+        /* height: 100%; */
+    }
+
+    .first1{
+        font-size: 10px;
+    }
+
+    .secondsecond{
+        font-size: 10px;
+    }
+
+    .thirdsecond{
+        font-size: 10px;
+    }
+
+    .second1{
+        height: 15%;
+    }
+
+    .third1{
+        height: 15%;
+    }
+}

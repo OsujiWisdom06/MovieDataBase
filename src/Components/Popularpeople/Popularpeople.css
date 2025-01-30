@@ -1,0 +1,156 @@
+.Popularpeople{
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.popularpeopleheader{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: end;
+}
+
+.popularpeopleheaderwrap{
+    width: 97%;
+    height: 100%;
+    /* background-color: #11B6DD; */
+    display: flex;
+    align-items: center;
+    color: #032541;
+}
+
+.popularpeopleheaderbtm{
+    width: 100%;
+    height: max-content;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actorswrap{
+    width: 94%;
+    height: auto;
+    /* background-color: yellow; */
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.actorsimagewrap{
+    width: 23%;
+    height: 60vh;
+    /* background-color: red; */
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.actorimagediv{
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    border-radius: 10px;
+    transition: 350ms ease-in-out;
+    transform: scale(1);
+
+    & img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+
+.actorimagediv:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.actorstext{
+    width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+}
+
+.firstactortext{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+.secondactortext{
+    width: 100%;
+    height: 50%;
+    /* background-color: purple; */
+    color: gray;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 480px){
+
+    .popularpeopleheaderwrap{
+        font-size: 10px;
+    }
+
+    .actorsimagewrap{
+        width: 100%;
+    }
+
+    .actorswrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .actorstext{
+        width: 100%;
+        height: 30%;
+        /* background-color: yellow; */
+    }
+
+    .firstactortext{
+        font-size: 12px;
+    }
+
+    .secondactortext{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .popularpeopleheaderwrap{
+        font-size: 10px;
+    }
+
+    .actorsimagewrap{
+        width: 100%;
+    }
+
+    .actorswrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .actorstext{
+        width: 100%;
+        height: 30%;
+        /* background-color: yellow; */
+    }
+
+    .firstactortext{
+        font-size: 12px;
+    }
+
+    .secondactortext{
+        font-size: 14px;
+    }
+}

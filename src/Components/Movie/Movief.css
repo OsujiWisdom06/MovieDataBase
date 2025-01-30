@@ -1,0 +1,192 @@
+.Movief{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moviefwrap{
+    width: 95%;
+    height: 95%;
+    /* background-color: blue; */
+}
+
+.moviefheader{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.moviebtm{
+    width: 100%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+}
+
+.movieleft{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+    }
+}
+
+.movieright{
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movierightwrap{
+    width: 95%;
+    height: 98%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    overflow-y: auto;
+}
+
+.movieimage2{
+    width: 23%;
+    height: 50vh;
+    /* background-color: red; */
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.movieimgediv{
+    width: 100%;
+    height: 78%;
+    /* background-color: blue; */
+    border-radius: 10px;
+
+    & img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
+
+.movietextdiv{
+    width: 100%;
+    height: 22%;
+    /* background-color: yellow; */
+}
+
+.mymovietitle{
+    width: 100%;
+    height: 40%;
+    /* background-color: magenta; */
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.mymovieyear{
+    width: 100%;
+    height: 40%;
+    /* background-color: maroon; */
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 480px){
+    .Movief{
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moviefheader{
+        font-size: 10px;
+    }
+
+    .movieleft{
+        width: 40%;
+        height: 100%;
+        /* background-color: green; */
+    }
+
+    .movieright{
+        width: 60%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .movieimage2{
+        width: 100%;
+    }
+
+    .mymovietitle{
+        font-size: 12px;
+    }
+
+    .mymovieyear{
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .Movief{
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moviefheader{
+        font-size: 10px;
+    }
+
+    .movieleft{
+        width: 40%;
+        height: 100%;
+        /* background-color: green; */
+    }
+
+    .movieright{
+        width: 60%;
+        height: 100%;
+        /* background-color: red; */
+    }
+
+    .movieimage2{
+        width: 100%;
+    }
+
+    .mymovietitle{
+        font-size: 13px;
+    }
+
+    .mymovieyear{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,426 @@
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #032541;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerwrap{
+    width: 94%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftheader{
+    width: 37%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5px; */
+}
+
+.rightheader{
+    width: 27%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+}
+
+.language{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.loginandtdmb{
+    width: 50%;
+    height: 100%;
+    /* background-color: magenta; */
+    display: flex;
+    flex-direction: row;
+}
+
+.movieicon{
+    width: 15%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tmdb{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+    /* background-color: magenta; */
+    display: flex;
+    color: #1AB8DA;
+    align-items: center;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.logoimg{
+    width: 40%;
+    height: 100%;
+    /* background-color: maroon; */
+    display: flex;
+    align-items: center;
+}
+
+.logocircle{
+    width: 80%;
+    height: 35%;
+    border-radius: 50px;
+    background-color: #1AB8DA;
+}
+
+.tvshow{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h3:hover{
+        cursor: pointer;
+        color: yellow;
+   }
+}
+
+.movies{
+   width: 20%;
+   height: 100%;
+   /* background-color: red; */
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* color: yellow; */
+
+   & h3:hover{
+    cursor: pointer;
+    color: yellow;
+}
+}
+
+
+.peoples{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h3:hover{
+         cursor: pointer;
+         color: yellow;
+    }
+
+}
+
+.plusicon{
+    width: 50%;
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    width: 40%;
+    height: 40%;
+    color: white;
+    cursor: pointer;
+}
+
+.english{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.englihbtn{
+    width: 50%;
+    height: 45%;
+    cursor: pointer;
+    background-color: #032541;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.englihbtn:hover{
+    color: #032541;
+    background-color: white;
+}
+
+.login{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.join{
+    width: 75%;
+    height: 100%;
+    /* background-color: maroon; */
+}
+
+.loginbtn{
+    width: 100%;
+    height: 100%;
+    background-color: #032541;
+    outline: none;
+    border: none;
+    color: white;
+
+    & h3:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+}
+
+
+
+.jointdmb{
+    width: 100%;
+    height: 100%;
+    background-color: #032541;
+    outline: none;
+    border: none;
+    color: white;
+
+    & h3:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+}
+
+
+.movie{
+    width: 100%;
+    height: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .header{
+        /* background-color: red; */
+        width: 100%;
+        /* height: 100%; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerwrap{
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+    }
+
+    .leftheader{
+        /* background-color: red; */
+        width: 45%;
+        height: 100%;
+    }
+
+    .tmdb{
+        /* background-color: yellow; */
+        width: 100%;
+        /* gap: 30px; */
+        font-size: 5px;
+    }
+
+    .tvshow{
+        /* background-color: purple; */
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+
+    .movies{
+        /* background-color: yellow; */
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+
+    .peoples{
+        /* background-color: magenta; */
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+    .logo{
+        /* border-color: red; */
+        width: 33%;
+    }
+
+    .logocircle{
+        display: none;
+    }
+
+    .rightheader{
+        /* background-color: red; */
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        /* gap: 50px; */
+    }
+
+    .loginandtdmb{
+        /* background-color: green; */
+        display: flex;
+        /* gap: px; */
+    }
+
+    .login{
+        width: 40%;
+        height: 100%;
+    }
+
+    .loginbtn{
+        font-size: 7px;
+    }
+
+    .join{
+        width: 60%;
+        height: 100%;
+        /* color: green; */
+    }
+
+    .jointdmb{
+        font-size: 7px;
+    }
+
+    .plus{
+        display: none;
+    }
+
+    .language{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .header{
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerwrap{
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+    }
+
+    .leftheader{
+        /* background-color: red; */
+        width: 50%;
+        height: 100%;
+    }
+
+    .tmdb{
+        /* background-color: yellow; */
+        width: 100%;
+        gap: 17px;
+        font-size: 8px;
+    }
+
+    .tvshow{
+        /* background-color: purple; */
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+    .movies{
+        /* background-color: yellow; */
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+
+    .peoples{
+        /* background-color: magenta; */
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+    }
+    .logo{
+        /* border-color: red; */
+        width: 33%;
+    }
+
+    .logocircle{
+        display: none;
+    }
+
+    .rightheader{
+        /* background-color: red; */
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        /* gap: 50px; */
+    }
+
+    .login{
+        width: 40%;
+        height: 100%;
+    }
+
+    .loginbtn{
+        font-size: 8px;
+    }
+
+    .join{
+        width: 60%;
+        height: 100%;
+        /* color: green; */
+    }
+
+    .jointdmb{
+        font-size: 8px;
+    }
+
+    .plus{
+        display: none;
+    }
+
+    .language{
+        display: none;
+    }
+    
+}
+
